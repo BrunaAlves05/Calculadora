@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+input {
+    margin-bottom: 2em;
+    padding: .5em;
+    border-color: coral;
+}
+button {
+    margin: .2em;
+    padding: .8em 1.4em;
+    color: coral;
+    font-weight: bolder;
+}
+.calculadora {
+    background-color: aliceblue;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5em;
+    box-shadow: 5px 5px 15px black;
+}
+.botoes__container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
